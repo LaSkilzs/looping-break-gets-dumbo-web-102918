@@ -1,6 +1,13 @@
 
 def levitation_quiz
-	#your code here
+	loop do 
+	  puts "What is the spell that enacts levit action?"
+	  result = gets.chomp
+	  break if result == "STOP"
+	end
+	puts ''
+	  
+	
 end
 
 
